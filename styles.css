@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%; /* Full height */
+    justify-content: space-between; /* Space out the content */
+}
+
+.dynamic-text {
+    font-size: 3.2rem; /* Font size */
+    font-family:'Times New Roman', Times, serif;
+    color: #e11e4ccf; /* Myntra pink */
+
+    padding: 40px; /* Increased padding */
+    border-radius: 10px; 
+    margin-right: 20px; /* Right margin */
+    flex: 1; /* Take half space */
+    text-align: left; /* Align text to the left */
+    opacity: 1; /* Start visible */
+    transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+    background-image: url(images/written1.jpeg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.buttons {
+    display: flex; /* Align buttons in a row */
+    flex-direction: column; /* Stack buttons vertically */
+    margin-left: 20px; /* Left margin */
+    background-color: rgba(255, 62, 108, 0.8); /* Transparent Myntra pink background */
+    background-image: url('a5980ef0e0c44e2e40a53dbacf04e5a7.jpg!w700wp'); /* Add your background image */
+    background-size: cover; /* Cover the entire button area */
+    background-position: center; /* Center the image */
+    padding: 40px; /* Padding for button area */
+    border-radius: 10px; /* Rounded corners */
+    height: auto; /* Auto height */
+    justify-content: center; /* Center buttons vertically */
+    flex: 1; /* Take half space */
+}
+
+.btn {
+    padding: 15px 50px; /* Button size */
+    font-size: 1.5rem; /* Font size */
+    font-style: italic;
+    margin: 15px; /* Space between buttons */
+    border: none;
+    background-color: white; /* White background for buttons */
+    color: #ee1d4edb; /* Myntra pink text */
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 300px;
+    height: 70px;
+}
+
+.btn:hover {
+    background-color: #41c4ff;
+   transform: scaley(1.5);
+   color: rgb(25, 23, 24);
+   font-weight: 700;
+   cursor: pointer;
+}
+.btn:active{
+    background-color: #41c4ff;
+    color: #ff3e6c;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ transform: scaleY(1);
+    color: aliceblue;
+}
+#or{
+    margin-top: 8px;
+    margin-left: 150px;
+    color:rgba(20, 23, 19, 0.744);
+    cursor:not-allowed;
+}
+.google{
+    color: rgb(18, 19, 19);
+    background-color: bisque;
+    margin-left: 75px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    font-weight: 600;
+    transition: transform 0.3s ease,width 0.3s ease;
+}
+.gogle_icon{
+    color: #ff3e6c;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.google:hover{
+transform: translatey(8px);
+width: 220px;
+font-weight: 700;
+box-shadow: 0px -4px 40px #17161679;
+cursor: pointer;
+}
+.phone{
+    margin-top: 20px;
+    margin-left: 75px;
+    height: 55px;
+    width: 200px;
+    color: rgb(18, 19, 19);
+    background-color: bisque;
+    font-weight: 600;
+    transition: transform 0.3s ease,width 0.3s ease;
+
+}
+.phone_icon{
+    color:blue;
+    margin-right: 14px;
+    font-size: 20px;
+}
+.phone:hover{
+    transform: translatey(8px);
+width: 220px;
+font-weight: 700;
+box-shadow: 0px -4px 40px #17161679;
+cursor: pointer;
+}

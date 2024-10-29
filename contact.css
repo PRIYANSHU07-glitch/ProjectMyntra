@@ -1,0 +1,229 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Assitant,-apple-system,BlinkMacSystemFont,Segoe UI,
+    Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height:80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d7d1d1;
+    cursor: pointer;
+}
+.MyntraHome{
+    height: 36px;
+    width: 53px;
+}
+.logo_contain{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.navbar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 27px 0;
+  border-bottom: 5px solid #ffffff;
+}
+#std:hover{
+    border-bottom: 3px solid blue;
+}
+#beau:hover{
+    border-bottom: 3px solid palegreen;
+}
+#wom:hover{
+    border-bottom: 3px solid hotpink;
+}
+#hml:hover{
+    border-bottom: 3px solid yellow;
+}
+#kid:hover{
+    border-bottom: 3px solid rgba(226, 151, 12, 0.801);
+}
+.navbar a:hover{
+    border-bottom:3px solid #f54e77;
+}
+.navbar a sup{
+   color: #e84117;
+   font-size: 10px;
+}
+.search_bar{
+height: 40px;
+min-width: 200px;
+width: 30%;
+display: flex;
+align-items: center;
+}
+.search{
+background-color: #f5f5f6;
+color: #696e79;
+flex-grow: 1;
+height: 40px;
+border: 0;
+border-radius: 0 4px 4px 0;
+}
+.search_icon{
+height: 20px;
+box-sizing: content-box;
+padding: 10px;
+background-color: #f5f5f6 ;
+color:#282c3f; 
+font-weight: 300;
+border-radius: 4px 0 0 4px;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+.order_details{
+    
+    background-color: rgba(235, 230, 233, 0.877);
+    margin: 2px;
+    padding: 20px;
+    height: 278px;
+    width: 100vw;
+    border-radius: 15px;
+background-image: url(images/contactus.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    cursor: pointer;
+}
+#order{
+    color:red;
+    cursor:default;
+}
+.order1 a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgba(234, 61, 18, 0.925);
+}
+.order1 a:hover{
+    text-decoration: underline blue;
+}
+#addr{
+    color:goldenrod;
+}
+.address a{
+    text-decoration: none;
+    color: rgba(8, 226, 254, 0.957);
+}
+.address a:hover{
+    text-decoration: underline blue;
+}
+.addr3{
+    color: #fbd1fbba;
+}
+.contact_de{
+    color: rgb(236, 128, 21);
+}
+.img_container{
+    display: flex;
+}
+.img1{
+    height: 250px;
+}
+.img2{
+    height: 250px;
+}
+.trends{
+    color: rgba(22, 237, 101, 0.811);
+    margin: 10px 50px;
+}
+.trends a {
+    text-decoration: none;
+    color:rgba(15, 125, 236, 0.963);
+}
+.trends a:hover{
+text-decoration: underline;
+text-decoration-color: rgba(204, 207, 210, 0.765);
+}
+.order_end{
+    margin:4px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/contactimg2.jpeg);
+    border-radius: 14px;
+    background-size: cover;
+    align-items: flex-start;
+    perspective: 100px;
+}
+.customer{
+    color: #e84117;
+    margin-left: 3px;
+    height: 70px;
+}
+.customer a{
+    color: #e84117;
+    margin-top: 5px;
+    text-decoration: none;
+    font-style: italic;
+}
+.customer a:hover{
+text-decoration: underline;
+text-decoration-color: blue;
+font-weight: 600;
+}
+.language{
+    color: #f54e77;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lang{
+    margin-top: 5px;
+    background-color: antiquewhite;
+    font-family:cursive;
+}
+.orq{
+    color:cadetblue;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.orq a{
+    color: aquamarine;
+    text-decoration: none;
+    margin-top: 9px;
+    font-style: italic;
+}
+.orq a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.noq{
+    color: blanchedalmond;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.noq a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-style: italic;
+}
+.noq a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: 600;
+}

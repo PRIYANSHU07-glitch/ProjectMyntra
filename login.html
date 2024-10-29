@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="website icon" type="png" href="images/icon.jpeg">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+        <header>
+            <div class="logo_contain">
+                <a href="#"><img class="MyntraHome" src="images/Myntralogonew.jpeg" alt="MyntraHome"></a>
+            </div>
+         <div class="navbar">
+            <a href="#">Men</a>
+            <a href="#" id="wom">Women</a>
+            <a href="#" id="kid">Kids</a>
+            <a href="#" id="hml">Home & Living</a>
+            <a href="#" id="beau">Beauty</a>
+            <a href="#" id="std">Studio<sup>New</sup></a>
+         </div>
+    <div class="search_bar"><span class="material-symbols-outlined search_icon">search</span>
+        <input class="search" placeholder="Search For Products,Brands & More......">
+    </div>
+    
+    <div class="action_bar">
+        <div class="action_container">
+            <span class="material-symbols-outlined action_icon">person</span>
+            <span class="action_name">Profile</span>
+    </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span> 
+            <span class="action_name">Wishlist</span>
+            </div>
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+            <span class="action_name">Bag</span>
+        </div>
+    </div>
+    </header>
+    <main>
+        
+        <div class="container">
+        <form action="https://www.myntra.com/">
+        
+            <label for="firstName" class="first_name">FIRST NAME:</label><br>
+            <input type="text" id="firstName" placeholder="Enter your first name" required="true"><br>
+
+            <label for="lastName" class="last_name">LAST NAME:</label><br>
+            <input type="text" id="lastName" placeholder="Enter your last name"><br><br>
+
+            <label for="phone" class="num">PHONE NO.:</label><br>
+            <input type="text" id="phone" placeholder="Phone Number"  required="true"><br><br>
+
+            <label for="email" class="eml">EMAIL:</label><br>
+            <input type="email" id="email" placeholder="example@gmail.com"  required="true"><br><br>
+
+            <label for="address" class="adr"> ADDRESS:</label><br>
+            <textarea id="address" placeholder="Enter Address"></textarea><br><br>
+
+            <label for="pincode" class="pin">PINCODE:</label>
+            <input type="text" id="pincode" placeholder="Enter Pincode"  required="true"><br><br>
+          <button class="submit" onclick="alert('Successfully Login !')">Login</button></a>
+        </form>
+    </div>
+   
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
